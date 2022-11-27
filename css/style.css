@@ -18,6 +18,14 @@ body {
   padding-top: 3.6rem;
 }
 
+/* .container {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 80rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+} */
 .container-lg {
   position: relative;
   margin: 0 auto;
@@ -34,9 +42,9 @@ body {
 }
 
 .dad-joke {
-  justify-self: center;
   font-size: 1.8rem;
   line-height: 1.8;
+  text-align: center;
 }
 
 .dad-img {
@@ -56,4 +64,10 @@ body {
   bottom: 4%;
   right: 50%;
   transform: translateX(50%);
+}
+
+@media (max-width: 25em) {
+  .heading-primary {
+    font-size: 6rem;
+  }
 }
