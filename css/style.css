@@ -12,22 +12,22 @@ html {
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #f1f3f5;
+  position: relative;
+  height: 100vh;
 }
 
 .header {
   padding-top: 3.6rem;
 }
 
-/* .container {
-  margin: 0 auto;
-  padding: 2rem;
-  width: 80rem;
-  height: 30rem;
+.container {
   display: flex;
+  margin: 0 auto;
   justify-content: center;
-} */
+  width: 80vw;
+}
 .container-lg {
-  position: relative;
+  /* position: relative; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -57,17 +57,23 @@ body {
 }
 
 .btn {
-  position: absolute;
   font-size: 3.6rem;
   max-width: 50%;
-  justify-self: center;
-  bottom: 4%;
-  right: 50%;
-  transform: translateX(50%);
+  position: absolute;
+  bottom: 5%;
 }
 
 @media (max-width: 25em) {
+  body {
+    font-size: 50%;
+  }
+
   .heading-primary {
     font-size: 6rem;
+  }
+
+  .dad-img {
+    width: 24rem;
+    height: 24rem;
   }
 }
